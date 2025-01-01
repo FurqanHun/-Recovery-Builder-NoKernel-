@@ -14,13 +14,13 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  MANIFEST_BRANCH: fox_9.0
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  MANIFEST: https://github.com/FurqanHun/twrp_vivo_2026/blob/android-11/recovery/root/system/etc/vintf/manifest.xml
+  MANIFEST_BRANCH: android-11
+  DEVICE: 2026
+  DT_LINK: https://github.com/FurqanHun/twrp_vivo_2026
+  DT_PATH: device/vivo/2026
   TARGET: recoveryimage
-  TZ: Asia/Kolkata
+  TZ: Asia
 
 jobs:
   build:
